@@ -1,12 +1,8 @@
-import NavComponent from "./Components/HeaderComponent";
-import NewsComponent from "./Components/NewsComponent";
+import Body from "./Components/BodyComponent";
 
 function App() {
   return (
-    <div>         
-      <NavComponent/>
-      <NewsComponent/>   
-    </div>
+    <Body/>
   );
 }
 

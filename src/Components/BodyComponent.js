@@ -1,16 +1,14 @@
 import NavComponent from "./HeaderComponent";
 import NewsComponent from "./NewsComponent";
+import CotationComponent from './CotationComponent';
 
 function body(){
     return(
-        <body>
-            <header>
-                <NavComponent/>
-            </header>
-            <section>
-                <NewsComponent/>
-            </section>
-        </body>    
+        <div>         
+            <NavComponent/>
+            <CotationComponent/>
+            <NewsComponent/>   
+        </div>   
     );
 }
 

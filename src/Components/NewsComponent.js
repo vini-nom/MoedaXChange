@@ -33,12 +33,12 @@ const NewsCard = () => {
                                   </div>
                                   <h2>{item.manchete}</h2><br/>
                                   <p>{item.conteudo}</p><br/>
-                                  <button type='button' onclick={() => window.location.href = item.fonte}>Saiba Mais</button>
+                                  <a href={item.fonte}>Saiba Mais</a>
                               </div>
                        )) : null;
 
   return (
-    <div className='container'>
+    <div className='containerNews'>
       {newsRender}
     </div>
   );
