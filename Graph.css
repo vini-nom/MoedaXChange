@@ -1,0 +1,49 @@
+
+:root{
+    --primary-color: #000;
+    --secondary-color: #272643;
+    --third-color: #ffffff;
+    --fourty-color: #2c698d;
+}
+
+.containerGraph
+{
+    margin-top: 10vh;
+    width: 100%;
+    height: 100%;
+}
+
+.containerFiltro
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5vh;
+    justify-content: center;
+}
+
+.inpInfoData
+{
+    width: 20%;
+    height: 3vh;
+    outline: none;
+    border-radius: 1vh;
+    border: none;
+    padding: 5px;
+    background-color: #ddd;
+}
+
+.btnTaxaCambio{
+    width: 10%;
+    height: 5vh;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid var(--fourty-color);
+    color: var(--fourty-color);
+    transition: ease-in-out 0.5ms;
+}
+
+.btnTaxaCambio:hover{
+    background-color: var(--fourty-color);
+    color: var(--third-color);
+}
